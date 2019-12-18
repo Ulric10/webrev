@@ -1,0 +1,15 @@
+.border img{
+    width: 100%;
+    
+}
+.border img:hover{
+    opacity: 0.5;
+}
+.block1{
+    float: left;
+    border-width: thin;
+    border: 2px solid rgb(93, 79, 79);
+    display: block;
+    height: 350px;
+    width: 300px;
+};
