@@ -1,15 +1,25 @@
-.border img{
-    width: 100%;
-    
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color:#333;
 }
-.border img:hover{
-    opacity: 0.5;
-}
-.block1{
+#navbar li{
     float: left;
-    border-width: thin;
-    border: 2px solid rgb(93, 79, 79);
+}
+#navbar li img:hover{
+    background-color: #111 
+}
+#navbar li a{
     display: block;
-    height: 350px;
-    width: 300px;
-};
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
