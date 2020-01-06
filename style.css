@@ -1,15 +1,98 @@
-.border img{
-    width: 100%;
-    
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color:#333;
 }
-.border img:hover{
-    opacity: 0.5;
-}
-.block1{
+#navbar li{
     float: left;
-    border-width: thin;
-    border: 2px solid rgb(93, 79, 79);
+}
+#navbar li img:hover{
+    background-color: #111 
+}
+#navbar li a{
     display: block;
-    height: 350px;
-    width: 300px;
-};
+    color: white;
+    text-align: center;
+    padding: 26px 26px;
+    text-decoration: none;
+    font-family: Arial black;
+    font-size: medium;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+div.block {
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.stars span{
+    font-size:40px;
+    color:#cdd0d4;
+    overflow:auto;
+    text-decoration: none;
+}
+.stars span:hover{
+    font-size:40px;
+    color:yellow;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none; 
+}
+
+p{
+    color: #29303B;
+    text-decoration: none;
+    font-size: 20px;
+}
+div.box-img{
+    width: 1000px;
+    background-image: url("/images/friv-logo-picture.png");
+    background-repeat: no-repeat;
+    background-size: 60% 100%;
+
+}
+div.box-img img{
+    opacity: 0;
+}
+
+div.box-1{
+    width: 1000px;
+    background-image: url("/images/google-logo-new-history-png-9.png");
+    background-repeat: no-repeat;
+    background-size: 55%;
+
+}
+
+div.box-1 img{
+    opacity: 0;
+    width: 990px;
+}
+
+div.box-img1{
+    width: 1000px;
+    background-image: url("/images/d88nct4-ff566cdb-71c9-49d3-a060-e2c59053d3c5.jpg");
+    background-repeat: no-repeat;
+    background-size: 580px;
+}
+div.box-img1 img{
+    opacity: 0;
+    width: 586px;
+}
