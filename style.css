@@ -83,4 +83,16 @@ div.box-1{
 
 div.box-1 img{
     opacity: 0;
+    width: 990px;
+}
+
+div.box-img1{
     width: 1000px;
+    background-image: url("/images/d88nct4-ff566cdb-71c9-49d3-a060-e2c59053d3c5.jpg");
+    background-repeat: no-repeat;
+    background-size: 580px;
+}
+div.box-img1 img{
+    opacity: 0;
+    width: 586px;
+}
