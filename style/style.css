@@ -144,3 +144,27 @@ label.star:before {
     background-color: #111;
 }
 
+div.box-3{
+    width: 1300px;
+    background-image: url("/images/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: 580px;
+}
+.box-3 img{
+    opacity: 0;
+    width: 700px;
+    height: 405px;
+    
+}
+
+div.block1 {
+    float: left;
+    overflow: hidden;
+    margin-left: 650px;
+    margin-top: -600px;
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
